@@ -1,0 +1,73 @@
+.major-icons{
+    display: flex;
+    justify-content: center;
+    margin: 3em 0;
+    padding: 0;
+}
+
+.major-icons li{
+    min-width: 15em;
+    display: inline-block;
+    border-color: #e3e3e3;
+    border-width: 0px;
+    border-left-width: 1px;
+    border-style: solid;
+    list-style: none;
+    padding: 0;
+}
+
+.major-icons li a{
+    transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+    text-decoration: none;
+    border-bottom: dotted 1px;
+    color: inherit;
+}
+
+.major-icons li:first-child{
+    border-left: 0;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.icon.major {
+    display: block;
+    margin: 0 0 0.5em 0;
+}
+ul.major-icons li h3 {
+    font-size: 0.8em;
+}
+
+.icon {
+    text-decoration: none;
+    border-bottom: none;
+    position: relative;
+}
+
+.fa-phone:before {
+    content: "\f095";
+}
+
+.fa-map:before {
+    content: "\f279";
+}
+
+.fa-envelope:before {
+    content: "\f0e0";
+}
+
+.icon.major:before {
+    color: #cdcdcd;
+}
+
+.icon.major:before {
+    font-size: 3em;
+    margin-bottom: 0.25em;
+}
+
+.label{
+    display: none;
+}
+.copyright{
+    color: #cdcdcd;
+    margin: 4em 0 2em 0;
+}
